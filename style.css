@@ -109,3 +109,65 @@ img {
         letter-spacing: 0px;
     }
 }
+
+
+/* 775*322 */
+@media only screen and (max-width: 775) {
+    
+    #millones{
+        font-size: 10pt!important;
+        font-family: 'POPPINS';
+        color: #fff;
+        left: 58%;
+        top: 81%;
+        /* right: 8%; */
+        position: absolute;
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+
+    #millones2{
+        font-size: 10pt!important;
+        font-family: 'POPPINS';
+        color: #fff;
+        left: 84%;
+        top: 81%;
+        right: 8%;
+        position: absolute;
+        letter-spacing: 0px;
+        width: 106px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    #cuotas{
+        font-size: 32pt;
+        font-family: 'POPPINS';
+        color: #000;
+        left: 55%;
+        top: 61%;
+        position: absolute;
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+    #cuotas2{
+        font-size: 32pt;
+        font-family: 'POPPINS';
+        color: #000;
+        left: 69%;
+        top: 61%;
+        position: absolute;
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+    #cuotas3{    
+        font-size: 32pt;
+        font-family: 'POPPINS';
+        color: #000;
+        left: 85%;
+        top: 61%;
+        position: absolute;
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+}
