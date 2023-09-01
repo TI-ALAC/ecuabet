@@ -58,7 +58,6 @@ img {
         color: #fff;
         left: 58%;
         top: 81%;
-        /* right: 8%; */
         position: absolute;
         font-weight: 900;
         letter-spacing: 0px;
@@ -112,7 +111,7 @@ img {
 
 
 /* 775*322 */
-@media only screen and (max-width: 775) {
+@media only screen and (max-width: 775px) {
     
     #millones{
         font-size: 10pt!important;
