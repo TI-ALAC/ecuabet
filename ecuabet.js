@@ -29,8 +29,9 @@ async function getUser(){
     const dataItem4  = xmlData.cuotas[1].Price.toFixed(2);
     const dataItem5  = xmlData.cuotas[2].Price.toFixed(2);
     
-    document.getElementById('title1').innerHTML = dataItem1;
-    document.getElementById('title2').innerHTML = dataItem2;
+    document.getElementById('title1').innerHTML = "Local";
+    document.getElementById('title2').innerHTML = "Visitante";
+    document.getElementById('title3').innerHTML = "Empate";
     document.getElementById('cuota1').innerHTML = dataItem3;
     document.getElementById('cuota2').innerHTML = dataItem4;
     document.getElementById('cuota3').innerHTML = dataItem5;
