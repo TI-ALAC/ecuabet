@@ -7,9 +7,7 @@ const URL = window.location.href;
 async function init() {
   await getUser();
   setTimeout(() => {
-    content.style.display = "none";
-    content3.style.display = "block";
-    content2.style.display = "none";
+    content2.style.display = "block";
   }, 7500);
 }
 
