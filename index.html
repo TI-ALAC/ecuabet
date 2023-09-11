@@ -1,46 +1,62 @@
-<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>America</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/favicon.ico" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"></script>
+    <title>LatinAd SSP Player</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            background-color: #000;
+            height: 100vh;
+            margin: 0;
+            color: #eee;
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+
+        .container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+
+        .container img,
+        .container video,
+        .container iframe {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+
+        .container iframe {
+            height: 100%;
+            width: 100%;
+            border: 0;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
-<body>
-    <main>
-        <div id="contenido2" style="display: block;" class="content2">
-            <img src="img/2.jpg">
-                <div style="display: flex;flex-direction: row;">
-                    <span id="millones">
-                        <span id="title1"></span>
-                    </span>
-                    <span id="millones2">
-                        <span id="title2"></span>
-                    </span>
-                    <span id="millones3">
-                        <span id="title3"></span>
-                    </span>
-                <span id="cuotas">
-                    <span id="cuota1"></span>
-                </span>
-                <span id="cuotas2">
-                    <span id="cuota2"></span>
-                </span>
-                <span id="cuotas3">
-                    <span id="cuota3"></span>
-                </span>
-            </div>
-        </div>
-    </main>
+<body class="no-content">
+    <div class="container">
+        <div id="reproductor"></div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.19.0/parser.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <script src="ecuabet.js"></script>
-    
+
+
+
 </body>
 
 </html>
