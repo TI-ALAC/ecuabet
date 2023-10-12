@@ -1,4 +1,4 @@
-const URI = "http://localhost:4002/api/ecuabet";
+const URI = "https://apiecuabet.alacoohecuador.com/api/ecuabet";
 var content = document.getElementById('contenido');
 var content2 = document.getElementById('contenido2');
 var content3 = document.getElementById('contenido3');
@@ -16,8 +16,6 @@ async function getUser(){
 
   const resp = await axios.get(URI);
   const xmlData = resp.data.data;
-
-  console.log(xmlData.cuotas[0])
 
   if (xmlData) {
     // America
